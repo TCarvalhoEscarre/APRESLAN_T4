@@ -1,0 +1,46 @@
+# TwinCAT PLC - arquivos gerados
+*.plcproj.bak
+*.plcproj.orig
+*.tpy
+*.tclrs
+# *.library
+# *.compiled-library
+*.compileinfo
+*.asm
+*.core
+
+LineIDs.dbg
+LineIDs.dbg.bak
+
+# TMC - normalmente gerado em projeto PLC
+*.tmc
+*.tmcRefac
+
+# Backups dos projetos TwinCAT
+*.tsproj.bak
+*.tsproj.b?k
+*.tsproj.orig
+*.xti.bak
+*.xti.bk?
+*.xti.orig
+
+# TwinCAT Multiuser
+**/.TcGit/
+
+# Pastas geradas
+**/_Boot/
+**/_CompileInfo/
+**/_Libraries/
+**/_ModuleInstall/
+**/_Deployment/
+**/_Repository/
+
+# Visual Studio / XAE
+**/.vs/
+*.suo
+*.~u
+*.project.~u
+*.tnzip
+
+# Solution do Visual Studio
+# *.sln
